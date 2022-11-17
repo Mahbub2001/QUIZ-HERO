@@ -1,0 +1,52 @@
+.home-page img{
+    -webkit-filter: blur(1px);
+    -moz-filter: blur(1px);
+    -o-filter: blur(1px);
+    -ms-filter: blur(1px);
+    filter: blur(1px);
+}
+.caption-1{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 5%;
+    bottom: 45%;
+    text-align: center;
+    font-size: 1rem;
+}
+.caption-2{
+    display: none;
+}
+@media screen and (max-width:990px){
+    .caption{
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 2%;
+        bottom: 30%;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width:590px){
+    .home-page img{
+        -webkit-filter: blur(3px);
+        -moz-filter: blur(3px);
+        -o-filter: blur(1px);
+        -ms-filter: blur(1px);
+        filter: blur(1.5px);
+    }
+    .caption-1{
+        display: none;
+    }
+    .caption-2{
+        display: block;
+        position: absolute;
+        margin-left: auto;
+        margin-right: auto;
+        left: 5%;
+        bottom: 13%;
+        text-align: center;
+        font-size: 1rem;
+    }
+}
